@@ -1,4 +1,4 @@
-import camelCase from "lodash/camelCase";
+import { camelCase } from "es-toolkit/compat";
 
 import { Dict } from "../typing";
 

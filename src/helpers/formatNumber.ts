@@ -1,5 +1,5 @@
 import { BigNumber } from "bignumber.js";
-import repeat from "lodash/repeat";
+import { repeat } from "es-toolkit/compat";
 
 import { FormatNumberOptions, Numeric } from "../typing";
 import { roundNumber } from "./roundNumber";

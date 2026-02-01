@@ -1,8 +1,6 @@
 /* eslint-disable class-methods-use-this, no-underscore-dangle */
 
-import get from "lodash/get";
-import has from "lodash/has";
-import merge from "lodash/merge";
+import { get, has, merge } from 'es-toolkit/compat';
 
 import {
   DateTime,
