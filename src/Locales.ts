@@ -1,7 +1,6 @@
-import { uniq } from 'es-toolkit/compat';
-
 import { Dict, LocaleResolver } from "./typing";
 import { I18n } from "./I18n";
+import uniq from 'es-toolkit/compat/uniq'
 
 /**
  * The default locale resolver.

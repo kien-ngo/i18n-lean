@@ -1,6 +1,8 @@
 /* eslint-disable class-methods-use-this, no-underscore-dangle */
 
-import { get, has, merge } from 'es-toolkit/compat';
+import get from 'es-toolkit/compat/get';
+import has from 'es-toolkit/compat/has';
+import merge from 'es-toolkit/compat/merge';
 
 import {
   DateTime,
